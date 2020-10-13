@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.chat_inline{
+  width: 40%;
+  display: inline; 
+  font-size: 30px;
+}
+.TitleTxt{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}

@@ -1,0 +1,13 @@
+.Tweet{
+    color: black;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: cyan;
+    border-width: 5px;
+}
+.tweet_inline{
+    margin-inline: 50px;
+    column-width: auto;
+    display: inline; 
+    font-size: 30px;
+}
