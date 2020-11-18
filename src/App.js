@@ -6,13 +6,10 @@ function App() {
 
   //Function to handle the Add Msg using State on a immutable array
   const handleAdd = () => {
-    console.log(inputTxt);
     const newMsg = {name:'John', message:inputTxt};
-    console.log(msgs);
     const newMsgsArr = msgs.slice();
     newMsgsArr.push(newMsg);
     setMsg(newMsgsArr);
-    console.log(msgs);
   }
   function inputTxtFunction(textIn) {
     inputTxt = textIn;
